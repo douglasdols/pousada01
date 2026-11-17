@@ -1,0 +1,13 @@
+{
+  "name": "paraty-pousada-boutique",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --env-file=.env server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
